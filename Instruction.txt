@@ -1,0 +1,21 @@
+1-  I used the CDN for bootstrap and Jquery in order to reduce the size of the source code, make sure you internet is working otherwise the page 
+   will not be properly dispalyed.
+
+2- Please import the databse file "dynamicformsolution.php" into your database
+
+3- set the db credential in config/db.php
+
+4- Only follwoing validation are covered.
+  required,maxlength, minlegth, max, min, email
+
+5- allow field type are 
+   Input, text area, select, radio, checkbox
+
+6- I have included an example curl rquest file "createFromRequestExample.php" for creating the form and also provided the 
+  curl string in "Curl request string.txt". You can use both Postman or run the script for 
+  creating the forms. You can use the link "Add a test reocrd" provided on home page for creating form record
+
+
+7- I used php mail() function email, please do the relvant setting your server
+
+8- I recorded two video of testing. Please see that if you have any issue.
